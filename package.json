@@ -1,0 +1,25 @@
+{
+  "name": "puppeteer-mcp",
+  "version": "1.0.0",
+  "description": "A Multi-Commander Protocol for automating browser tasks with Puppeteer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeteer",
+    "automation",
+    "scraping"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@puppeteer/browsers": "^2.4.1",
+    "jsdom": "^26.0.0",
+    "puppeteer": "^24.4.0",
+    "turndown": "^7.2.0",
+    "yargs": "^17.7.2"
+  },
+  "type": "module"
+}
